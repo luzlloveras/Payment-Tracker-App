@@ -1,0 +1,1 @@
+Create an app to track the list of external invoices and payments made against them. Each invoice can have several line items which is linked to a product, which has its own entity.
