@@ -56,6 +56,13 @@
       "label": "Enable Discovery and Deploy Payment_Tracker_App",
       "taskType": "Deploy",
       "enableDiscovery": "true"
+    },
+    {
+      "type": "build.mta",
+      "label": "Template: Build MTA: Payment_Tracker_App - PT",
+      "taskType": "Build",
+      "projectPath": "/home/user/projects/Payment_Tracker_App",
+      "extensions": []
     }
   ]
 }
