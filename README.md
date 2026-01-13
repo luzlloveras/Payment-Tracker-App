@@ -1,25 +1,30 @@
-# Getting Started
+# Payment Tracker (SAP CAP)
 
-Welcome to your new project.
+A lightweight payment tracking service built with **SAP Cloud Application Programming Model (CAP)**.
+It provides a simple backend to manage payments, statuses, and basic reporting.
 
-It contains these folders and files, following our recommended project layout:
+## Tech stack
+- SAP CAP (Node.js)
+- CDS models (`db/`)
+- Service layer (`srv/`)
+- SAP BTP deployment via **MTA** (`mta.yaml`)
+- Security config (`xs-security.json`)
 
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
+## Features (current)
+- Create / list / update payments
+- Track status (e.g. pending / paid / overdue)
+- Basic validation and structured data model
 
+## Project structure
+- `db/` – data model (CDS)
+- `srv/` – services (CDS + handlers)
+- `app/` – UI placeholder (optional)
 
-## Next Steps
+## Local setup
+### Prerequisites
+- Node.js LTS
+- `@sap/cds-dk`
 
-- Open a new terminal and run `cds watch`
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
-
-
-## Learn More
-
-Learn more at https://cap.cloud.sap/docs/get-started/.
+```bash
+npm install
+cds watch
