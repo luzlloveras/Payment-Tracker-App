@@ -16,10 +16,8 @@ The goal is a clean, minimal baseline suitable for portfolio review.
 3. `npm run start-local` (defaults to `http://localhost:4004`)
 
 ## Documentation
-- Setup and scripts: `docs/setup.md`
+- Installation and usage: `docs/installation.md`
 - API and URLs: `docs/api.md`
-- Configuration and environments: `docs/config.md`
-- Usage notes: `docs/usage.md`
 - Troubleshooting: `docs/troubleshooting.md`
 
 ## License
