@@ -9,7 +9,7 @@
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/odata/v4/invoice-tracking-srv/
 |**Module Name**<br>invoicetrackingapp|
-|**Application Title**<br>AI generated App invoicetrackingapp|
+|**Application Title**<br>Invoice Tracking App|
 |**Namespace**<br>|
 |**UI5 Theme**<br>sap_horizon|
 |**UI5 Version**<br>1.122.0|
@@ -20,7 +20,7 @@
 
 ## invoicetrackingapp
 
-AI generated App invoicetrackingapp
+Invoice Tracking App
 
 ### Starting the generated app
 
